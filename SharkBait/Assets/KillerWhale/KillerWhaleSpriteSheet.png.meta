@@ -1,7 +1,76 @@
 fileFormatVersion: 2
 guid: 7c401e5603fd4174dbd78e76b906e146
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7022443206120860294
+    second: KillerWhaleSpriteSheet_0
+  - first:
+      213: 4422934390178814246
+    second: KillerWhaleSpriteSheet_1
+  - first:
+      213: -2769176984724316124
+    second: KillerWhaleSpriteSheet_2
+  - first:
+      213: 1016819663737459101
+    second: KillerWhaleSpriteSheet_3
+  - first:
+      213: -2042651698754672161
+    second: KillerWhaleSpriteSheet_4
+  - first:
+      213: 3512923607467093637
+    second: KillerWhaleSpriteSheet_5
+  - first:
+      213: -6623629042425803240
+    second: KillerWhaleSpriteSheet_6
+  - first:
+      213: 6624899480950396033
+    second: KillerWhaleSpriteSheet_7
+  - first:
+      213: -3495546076848562969
+    second: KillerWhaleSpriteSheet_8
+  - first:
+      213: 4326846843787669939
+    second: KillerWhaleSpriteSheet_9
+  - first:
+      213: 7605168416203090164
+    second: KillerWhaleSpriteSheet_10
+  - first:
+      213: -8130736508036976268
+    second: KillerWhaleSpriteSheet_11
+  - first:
+      213: -6328072233003521089
+    second: KillerWhaleSpriteSheet_12
+  - first:
+      213: -8807881219253085987
+    second: KillerWhaleSpriteSheet_13
+  - first:
+      213: -4993063741748624163
+    second: KillerWhaleSpriteSheet_14
+  - first:
+      213: -8699035801170488313
+    second: KillerWhaleSpriteSheet_15
+  - first:
+      213: 7751772680832892747
+    second: KillerWhaleSpriteSheet_16
+  - first:
+      213: -204557525308794260
+    second: KillerWhaleSpriteSheet_17
+  - first:
+      213: -3385867458035509443
+    second: KillerWhaleSpriteSheet_18
+  - first:
+      213: 9156318439220100360
+    second: KillerWhaleSpriteSheet_19
+  - first:
+      213: 2514995349932903140
+    second: KillerWhaleSpriteSheet_20
+  - first:
+      213: -6783039163195957643
+    second: KillerWhaleSpriteSheet_21
+  - first:
+      213: 7487407471925511455
+    second: KillerWhaleSpriteSheet_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +101,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,12 +110,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -66,7 +135,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -75,7 +156,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: KillerWhaleSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 342
+        width: 99
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a6034b3eab47160800000000000000
+      internalID: 7022443206120860294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerWhaleSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 301
+        width: 95
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420e1514438e199d0800000000000000
+      internalID: -2769176984724316124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerWhaleSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 259
+        width: 93
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471f7247932d92f80800000000000000
+      internalID: -8130736508036976268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerWhaleSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 216
+        width: 99
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704d3de3701d64780800000000000000
+      internalID: -8699035801170488313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerWhaleSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 174
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f3f9cbe24d39b60800000000000000
+      internalID: 7751772680832892747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerWhaleSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 120
+        width: 99
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80db214bb17c11f70800000000000000
+      internalID: 9156318439220100360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KillerWhaleSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 72
+        width: 100
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea828c12fe07e220800000000000000
+      internalID: 2514995349932903140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
