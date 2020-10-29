@@ -6,7 +6,7 @@ public class KillerWhale : MonoBehaviour
 {
     [SerializeField] float _speed = 2f;
     // Start is called before the first frame update
-    static int _enemyCount = 0;
+    //static int _enemyCount = 0;
     void Start()
     {
         
