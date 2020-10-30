@@ -36,16 +36,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\FloaterSpawner.cs" />
+     <Compile Include="Assets\Swimmer.cs" />
+     <Compile Include="Assets\SwimmerSpawner.cs" />
+     <Compile Include="Assets\Floater.cs" />
+     <Compile Include="Assets\GameState.cs" />
      <Compile Include="Assets\PlayerController.cs" />
      <Compile Include="Assets\KillerWhale.cs" />
      <Compile Include="Assets\backgroundLoop.cs" />
      <Compile Include="Assets\KillerWhale\WhaleSpawner.cs" />
-     <Compile Include="Assets\PlayerMovement.cs" />
-     <Compile Include="Assets\Swimmer.cs" />
-     <Compile Include="Assets\Floater.cs" />
-     <Compile Include="Assets\FloaterSpawner.cs" />
-     <Compile Include="Assets\SwimmerSpawner.cs" />
-     <Compile Include="Assets\GameState.cs" />
+     <Compile Include="Assets\Player.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
