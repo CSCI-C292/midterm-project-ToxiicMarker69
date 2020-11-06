@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+
 public class GameState : MonoBehaviour
 {
     int _score = 0;
@@ -14,9 +15,11 @@ public class GameState : MonoBehaviour
     
     void Awake() {
         Instance = this;
+        
     }
 
     void Update() {
+        
         if (Input.GetButtonDown("Submit") && _isGameOver) {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
@@ -25,11 +28,16 @@ public class GameState : MonoBehaviour
     public void IncreaseScore(int amount) {
         _score += amount;
         _scoreText.GetComponent<Text>().text = " Score: " + _score;
+        Debug.Log("Score Increased!" +_score);
+        if (_score == 150){
+            InitiateGameOver();
+        }
     }
     
     public void InitiateGameOver() {
         _isGameOver = true;
         _gameOverText.SetActive(true);
+        Debug.Log("You Win!");
 
     }
 }

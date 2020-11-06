@@ -16,15 +16,15 @@ public class Floater : MonoBehaviour
     void Update()
     {
         transform.position -= new Vector3 (Time.deltaTime * _speed, 0, 0);
+        if (gameObject.transform.position.x <= -20f){
+            Destroy(gameObject);
+        }
+    
     }
-
     // void OnTriggerEnter2D(Collider2D collider) {
-    //     Destroy(gameObject);
-
-    //     if (collider.gameObject.name == "Player")
-    //         GameState.Instance.InitiateGameOver();
-
-    //     Destroy(collider.gameObject);
-    //     GameState.Instance.IncreaseScore(10);
+    //     GameState.Instance.IncreaseScore(15);
+    //     Destroy(this);
+        
     // }
+    
 }
